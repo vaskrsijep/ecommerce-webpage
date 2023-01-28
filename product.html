@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="scss/styles.css">
+</head>
+<body>
+    <!--=============== Header ===============-->
+    <header class="header" id="header">
+        <!--=============== Top Bar ===============-->
+        <div class="responsive_menu">
+            <span id="nav-toggle" class="toggle_menu"><i class="ri-apps-2-line"></i></span>
+            <span id="nav-close" class="close_menu"><i class="ri-close-line"></i></span>
+        </div>
+        <div class="topbar">
+            <ul class="container">
+                <li><a href="">Log in</a></li>
+                <li><a href="">Sign in</a></li>
+            </ul>
+        </div>
+        <hr class="divider">
+        <!--=============== Navigation Bar ===============-->
+        <nav class="nav container">
+            <!--=============== Nav Bar ===============-->
+            <div class="navbar" id="navmenu">
+                <ul class="nav__list">
+                    <li class="logo" ><a href="">ecommerce</a></li>
+                    <li class="nav__item"><a href="index.html">Home</a></li>
+                    <li class="nav__item has-submenu">
+                        <a href="">Categories</a> <i onclick="showsubmenu_cat()" class="ri-arrow-down-s-line submenu-closed"></i> 
+                        <i onclick="hidesubmenu_cat()"  class="ri-arrow-up-s-line submenu-opened"></i>
+                        <ul class="submenu">
+                            <li><a href="">Phone</a></li>
+                            <li><a href="">Phone</a></li>
+                            <li><a href="">Phone</a></li>
+                            <li><a href="">Phone</a></li>
+                            <li><a href="">Phone</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item"><a href="">News</a></li>
+                    <li class="nav__item"><a href="">Products</a></li>
+                    <li class="nav__item"><a href="">About us</a></li>
+                    <li class="nav__item"><a href="">Contacts</a></li>
+                </ul>
+                <ul class="navsettings">
+                    <li><i class="ri-search-line"></i></li>
+                    <li><i class="ri-moon-line change-theme" id="theme-button"></i></li>
+                    <li><i class="ri-shopping-cart-line"></i></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--=============== SpecBar ===============-->
+    <section class="specbar">
+        <div class="container">
+            <ul class="specbar_lists">
+                <li><a href="">Specs</a></li>
+                <li><a href="">Specs</a></li>
+                <li><a href="">Specs</a></li>
+                <li><a href="">Specs</a></li>
+                <li><a href="">Specs</a></li>
+                </ul>
+        </div>
+    </section>
+    <!--=============== Product View ===============-->
+    <section class="productview">
+        <div class="container">
+            <div class="pv_content">
+                <ul class="thumbs">
+                    <li><img src="" alt=""></li>
+                    <li><img src="" alt=""></li>
+                    <li><img src="" alt=""></li>
+                    <li><img src="" alt=""></li>
+                </ul>
+                <img class="product_view_photo" src="img/FirstImageS8.png" alt="s8">
+                <div class="sidebar">
+                    <span class="new_product">NEW</span>
+                    <p class="phone_imei">SM-G955UXKAXAA</p>
+                    <h2 class="product_title">Galaxy S8 64GB (Unlocked)</h2>
+                    <ul class="rating_stars">
+                        <li><i class="ri-star-fill"></i></li>
+                        <li><i class="ri-star-fill"></i></li>
+                        <li><i class="ri-star-fill"></i></li>
+                        <li><i class="ri-star-fill"></i></li>
+                        <li><i class="ri-star-fill"></i></li>
+                        <li><p>5.0</p></li>
+                        <li><p class="text-gray">190 Votes</p></li>
+                    </ul>
+                    <div class="trade-in">
+                        <ul class="upper">
+                            <li><p>Trade-In</p></li>
+                            <li><a href="">Skip</a></li>
+                        </ul>
+                        <hr class="divider">
+                        <ul class="cards">
+                            <li class="card">
+                                <img src="" alt="">
+                                <p>Galaxy Note 5</p>
+                                <span>-$155</span>
+                            </li>
+                            <li class="card">
+                                <img src="" alt="">
+                                <p>Galaxy Note 5</p>
+                                <span>-$155</span>    
+                            </li>
+                            <li class="card">
+                                <img src="" alt="">
+                                <p>Galaxy Note 5</p>
+                                <span>-$155</span>
+                            </li>
+                            <li class="card">
+                                <img src="" alt="">
+                                <p>Galaxy Note 5</p>
+                                <span>-$155</span>
+                            </li>
+                        </ul>
+                        <hr class="divider">
+                    </div>
+                    <div class="gifts">
+                        <ul class="upper">
+                            <li><p>Choose your gift (Optional)</p></li>
+                            <li><a href="">Skip</a></li>
+                        </ul>
+                        <hr class="divider">
+                        <ul class="cards">
+                            <li class="card">
+                                <img src="" alt="">
+                                <p>Gear 360</p>
+                            </li>
+                            <li class="card">
+                                <img src="" alt="">
+                                <p>Gear 360</p>
+                            </li>
+                            <li class="card">
+                                <img src="" alt="">
+                                <p>Gear 360</p>
+                            </li>
+                        </ul>
+                        <hr class="divider">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=============== Specifications ===============-->
+    <!--=============== Products you mayu like ===============-->
+    <!--=============== Reviews ===============-->
+
+    
+    <!--=============== Footer Menu Links ===============-->
+    <section class="footer">
+        <div class="container">
+            <div class="flex_links">
+                <div class="col1">
+                    <ul>
+                        <li><a href="">Orders</a></li>
+                        <li><a href="">Delivery</a></li>
+                        <li><a href="">Rerurns and Refunds</a></li>
+                    </ul>
+                </div>
+                <div class="col1">
+                    <ul>
+                        <li><a href="">How can we help?</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Size Guides</a></li>
+                    </ul>
+                </div>
+                <div class="col1">
+                    <ul>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Corporate Responsibility</a></li>
+                        <li><a href="">Journalism</a></li>
+                    </ul>
+                </div>
+                <div class="col1">
+                    <ul>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">Advertisement</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr class="container divider">
+        <div class="credits">
+            <h2>Vaskrsije Panic <span>.</span></h2>
+            <p>@2023. All rights reserved.</p>
+        </div>
+    </section>
+    <!--=============== Footer ===============-->
+        
+
+    </main>
+
+    <script src="js/scrollreveal.min.js"></script>
+        
+    <!--=============== SWIPER JS ===============-->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="js/main.js"></script>
+</body>
+</html>
